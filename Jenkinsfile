@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh 'npm run test --watchAll=false'
+        sh '# npm run test --watchAll=false'
       }
     }
   }
